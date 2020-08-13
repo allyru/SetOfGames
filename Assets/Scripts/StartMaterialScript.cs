@@ -20,9 +20,8 @@ public class StartMaterialScript : MonoBehaviour
 
     void OnMouseDown()
     {
-        Debug.Log(i);
         _actionTarget.test(i);
-        Debug.Log(i);
+        //Debug.Log(i);
         //this.gameObject.GetComponent<MeshRenderer>().material = materialArray[0];
 
     }
